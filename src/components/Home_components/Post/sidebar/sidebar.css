@@ -1,0 +1,105 @@
+.sidebarContainer {
+    width: 25%;
+    max-width: none;
+    overflow-y: scroll;
+    height: 100vh;
+    margin-top: 55px;
+    margin-bottom: 20px;
+   border-radius: 2px;
+}
+
+.sidebarContainer::-webkit-scrollbar {
+    width: 8px; 
+    height: 8px; 
+}
+
+.sidebarContainer::-webkit-scrollbar-track {
+    background: transparent; 
+   
+}
+
+.sidebarContainer::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); 
+    border-radius: 4px;
+    margin-right: 2px;
+}
+
+.sidebarContainer::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.4); /* Ndryshojeni sipas preferencave */
+}
+
+
+.unordertList {
+    list-style: none;
+    margin-top: 15px;
+    height: auto;
+}
+
+.list{
+margin-top: 15px;
+display: flex;
+align-items: center;
+gap: 15px;
+}
+
+.list span {
+    font-family: 'Poppins', sans-serif; /* Përdor fontin Poppins */
+    font-weight: 500;
+}
+
+.icons {
+    background: linear-gradient(to right, #b6f0de, #4d7999);
+    width:30px;
+    height:30px; 
+    border-radius: 10px;
+    padding: 3.5px;
+    color: rgb(70, 69, 69);
+}
+
+.view_more_btn {
+    margin-top: 35px;
+    width: 90%;
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(232, 229, 229) ;
+    gap: 5px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.view_more_btn:hover {
+    background-color: rgb(188, 186, 186);
+}
+
+.view_more_btn:focus {
+    color: rgb(6, 93, 181);
+}
+
+hr {
+    margin-top: 10px;
+}
+
+.friend_container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 0 0 40px;
+}
+
+
+.imgPerson {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+@media (max-width: 640px) {
+    .sidebarContainer {
+        display: none;
+    }
+}

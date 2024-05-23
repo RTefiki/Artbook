@@ -1,0 +1,90 @@
+/* Stilet bazë */
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.share_container {
+  width: 100%;
+  height: auto;
+  margin: 75px 15px 0 15px;
+  border-radius: 4px;
+  -webkit-box-shadow: 2px 0px 9px 5px rgba(249, 246, 246, 0.91), 2px 0px 9px 5px rgba(156,156,156,0.91); 
+  box-shadow: 2px 0px 9px 5px rgba(226, 225, 225, 0.91), 2px 0px 9px 5px rgba(156,156,156,0.91);
+}
+
+.search_container {
+    display: flex;
+    padding: 15px 20px 5px 20px;
+    gap: 10px;
+}
+
+.img_user {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+}
+
+.search {
+    flex-grow: 1; /* Shtuar për të mbushur hapësirën e disponueshme */
+    border: none;
+    height: 40px;
+}
+
+.hr {
+    border: 1px solid white;
+    margin: 0px;
+}
+
+.tags {
+    display: flex;
+    padding: 10px 0 15px 0;
+    margin: 0 25px; /* Optimizuar */
+    gap: 30px;
+}
+
+.icon_name {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+}
+
+.share_button {
+    padding: 8px 12px;
+    align-items: center;
+    margin-left: auto; 
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+  .container{
+    width: 380px;
+  }  
+  .search_container {
+      padding: 10px;    
+  }
+
+  .tags {
+      gap: 15px; 
+      margin: 0 10px; 
+  }
+
+  .icon_name main{
+    display: none;
+  }
+
+  .share_button {
+      padding: 6px 10px; 
+  }
+}
+
+@media (max-width: 999px) {   
+    .icon_name main{
+        display: none;
+      }
+}

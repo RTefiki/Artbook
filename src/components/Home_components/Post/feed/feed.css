@@ -1,0 +1,10 @@
+.feedContainer {
+    width: 55%;
+    overflow-y: scroll;
+    height: 100vh;
+    margin-bottom: 25px;
+    z-index: 2;
+    position: relative; 
+    scrollbar-width: none;
+}
+

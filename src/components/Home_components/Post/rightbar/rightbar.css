@@ -1,0 +1,55 @@
+.rightContainer {
+    width: 25%;
+    margin-top: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 100vh;
+}
+
+.rightContainerTop {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.inconsTop{
+    display: flex;
+    gap: 25px;
+    cursor: pointer;
+}
+
+.userContain{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.userContain ::after {
+    background-color: red;
+}
+
+.imgContantUser {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.personName{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: rgb(116, 116, 116);
+}
+
+@media (max-width: 640px) {
+    .rightContainer {
+        display: none;
+    }
+}
+
+@media (max-width: 840px) {
+    .rightContainer {
+        display: none;
+    }
+}

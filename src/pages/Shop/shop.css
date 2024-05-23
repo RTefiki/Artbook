@@ -1,0 +1,99 @@
+.friends_container {
+  max-width: auto;
+  max-height: auto;
+  padding: 10px;
+
+  h2 {
+    margin-top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+  }
+  .frend {
+    max-width: auto;
+    height: 100vh;
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  .friends {
+    flex-direction: column;
+    width: 240px;
+    background: rgb(250, 249, 249);
+    margin-top: 10px;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+    box-shadow: rgb(215, 213, 213) 0px 0px 1px 2px;
+    padding-bottom: 3px;
+    img {
+      width: 100%;
+      height: 200px;
+    }
+
+    .friend_contact {
+      padding: 0 10px;
+      margin-top: -10px;
+      p {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 15px;
+      }
+
+      .same_friends {
+        flex-direction: column;
+      
+        .price {
+          font-size: 16px;
+          font-weight: 600;
+          text-align: start;
+        }
+
+        .describe {
+          margin-top: 0;
+        }
+      }
+
+      .buttons {
+        flex-direction: row;
+        button {
+          width: 100%;
+          padding: 7px 0;
+          margin-bottom: 5px;
+          border-radius: 5px;
+          background-color: rgb(64, 116, 248);
+          color: white;
+          border: none;
+          cursor: pointer;
+
+          button .fokus {
+            color: red;
+          }
+        }
+      }
+    }
+  }
+  .add_more_friends {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .add_more_friends button {
+    width: 400px;
+    background-color: rgb(71, 74, 238);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+
+  .add_more_friends button:hover {
+    background-color: lightblue;
+  }
+}

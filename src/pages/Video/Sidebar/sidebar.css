@@ -1,0 +1,30 @@
+.sidebar{
+    width: 100%;
+    margin: 50px 20px;
+
+    .items{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 80%;        
+}
+
+.items:hover{
+        background-color: rgb(183, 185, 184);
+        width: 80%;
+        padding: 0 10px;
+        border-radius: 10px;
+        cursor: pointer;
+}
+
+     .icon {
+        display: flex;
+        width: 35px;
+        height: 35px;
+        background-color: rgb(64, 116, 248);        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        
+      }
+
+}
